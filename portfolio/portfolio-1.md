@@ -1,6 +1,6 @@
 ---
-title: "Portfolio item number 1"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+title: "CAHOOT.AI - SOFTWARE ENGINEER INTERN"
+excerpt: "June 2024 - Present<br/><img src='/images/500x300.png'>"
 collection: portfolio
 ---
 
