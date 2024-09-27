@@ -27,7 +27,7 @@
     <h2 class="archive__item-title" itemprop="headline">
       {% if post.collection == 'experience' %}
         <!-- Construct the URL manually for experience collection -->
-        <a href="{{ post.slug }}">{{ title }}</a>
+        <a href="{{ post.permalink }}" rel="nofollow">{{ title }}</a>
       {% else %}
         <!-- Use base_path for other collections -->
         <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
