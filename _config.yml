@@ -183,6 +183,7 @@ collections:
     permalink: /:collection/:path/
   experience:
     output: true
+    permalink: /:path/
   talks:
     output: false
     permalink: /:collection/:path/
