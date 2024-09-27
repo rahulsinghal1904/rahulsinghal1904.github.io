@@ -8,9 +8,6 @@ redirect_from:
   - /about/
   - /about.html
 ---
-# Rahul Singhal
-
-# Rahul Singhal
 
 Howdy! I am **Rahul Singhal**, pursuing a **Master of Science in Computer Science** at [**New York University**](https://www.nyu.edu) (GPA 4.0/4.0). Before that, I completed my **B.Tech in Computer Science and Engineering** from [**Jaypee Institute of Information Technology, India**](https://www.jiit.ac.in) (GPA 9.2, First Division). My zeal for technology transcends academia, penetrating the realms of teaching, professional endeavors, and cutting-edge research.
 
