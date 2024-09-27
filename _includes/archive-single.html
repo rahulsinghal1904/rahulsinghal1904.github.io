@@ -29,8 +29,9 @@
     <h2 class="archive__item-title" itemprop="headline">
 
       {% if post.collection == 'experience' %}
-        {% assign experience_title = title | remove: "https://rahulsinghal1904.github.io/" %}
-        <a href="{{ post.url }}">{{ experience_title }}</a>
+        {% assign custom_title = title %}
+        {% assign custom_url = post.url | remove: "https://rahulsinghal1904.github.io/" %}
+        <a href="{{ custom_url }}">{{ custom_title }}</a>
       {% else %}
         <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
       {% endif %}
