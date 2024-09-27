@@ -29,7 +29,9 @@
 @import "syntax";
 
 @import "forms";
-
+.archive a {
+    text-decoration: none !important;
+}
 @import "page";
 @import "archive";
 @import "sidebar";
