@@ -1,7 +1,7 @@
 ---
 layout: archive
 permalink: /
-title: "About me"
+title: ""
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -9,10 +9,8 @@ redirect_from:
   - /about.html
 ---
 
-<h2 align="center">👋</h2>
-
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=007ACC&center=true&vCenter=true&multiline=true&width=750&height=100&lines=Howdy!+I'm+Rahul+Singhal;Open+to+collaboration+%F0%9F%92%BB+Let's+build!" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=007ACC&center=true&vCenter=true&multiline=true&width=750&height=100&lines=👋Howdy!+I'm+Rahul+Singhal;Open+to+collaboration+%F0%9F%92%BB+Let's+build!" alt="Typing SVG" />
 </p>
 
 
