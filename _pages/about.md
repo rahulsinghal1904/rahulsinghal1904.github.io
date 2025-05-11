@@ -9,9 +9,10 @@ redirect_from:
   - /about.html
 ---
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=007ACC&center=true&vCenter=true&multiline=true&width=750&height=100&lines=👋Howdy!+I'm+Rahul+Singhal;Open+to+collaboration+%F0%9F%92%BB+Let's+build!" alt="Typing SVG" />
+<p align="left">
+  <img src="https://readme-typing-svg.demolab.com?font=Source+Code+Pro&size=28&duration=3000&pause=1000&color=000000&center=false&vCenter=true&multiline=true&width=850&height=100&lines=👋+Howdy!+I'm+Rahul+Singhal.;💼+Open+to+collaboration+%7C+Let's+build+impactful+AI!" alt="Typing SVG" />
 </p>
+
 
 
 I am pursuing a **Master of Science in Computer Science** at [**New York University**](https://www.nyu.edu) (GPA 4.0/4.0), where I was honored as an **M. Michael Waller Graduate Award** recipient for outstanding academic performance at [**Courant Institute of Mathematical Sciences**](https://cs.nyu.edu).  
