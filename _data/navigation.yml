@@ -2,8 +2,6 @@
 main:
   - title: "Research"
     url: /publications/
-  - title: "Experience"
-    url: /experience/
   - title: "Teaching"
     url: /teaching/    
   
