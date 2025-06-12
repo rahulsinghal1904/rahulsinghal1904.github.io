@@ -8,7 +8,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-<div style="display: flex; justify-content: center; align-items: center; width: 100%; padding: 20px 0; background: linear-gradient(to right, #f0f2f5, #e0e7ff); border-radius: 12px; box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);">
+<div>
   <img 
     src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=20&duration=3000&pause=1000&color=1A1A40&center=false&vCenter=true&multiline=true&width=800&height=70&lines=👋+Howdy!+I'm+Rahul+Singhal.;💼+Open+to+collaboration+%7C+Let's+build!" 
     alt="Typing SVG"
