@@ -16,7 +16,6 @@ redirect_from:
       max-width: 100%; 
       height: auto; 
       border-radius: 10px; 
-      box-shadow: 0 8px 20px rgba(26, 26, 64, 0.2);
       animation: glow 3s ease-in-out infinite alternate;
       padding: 5px;
     "
