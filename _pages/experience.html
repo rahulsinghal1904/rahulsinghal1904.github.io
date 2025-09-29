@@ -4,35 +4,65 @@ title: Experience
 permalink: /experience/
 ---
 
-<div class="experience">
+<h1 class="page-title">Experience</h1>
+
+<div class="xp-list">
   {% assign items = site.data.experience | sort: 'start' | reverse %}
   {% for item in items %}
-  <article class="card">
-    <header>
-      <h3>
+    <article class="xp-item">
+      <h2 class="xp-heading">
         {% if item.url %}
-          <a href="{{ item.url }}" target="_blank" rel="noopener">
-            {{ item.company }}
-          </a>
+          <a href="{{ item.url }}" target="_blank" rel="noopener">{{ item.company }}</a>
         {% else %}
           {{ item.company }}
         {% endif %}
-        <span class="role">— {{ item.title }}</span>
-      </h3>
-      <p class="meta">
-        {{ item.start | date: "%b %Y" }} –
+        <span class="xp-dash">—</span>
+        <span class="xp-role">{{ item.title }}</span>
+      </h2>
+
+      <p class="xp-meta">
+        {{ item.start | date: "%b %Y" }}
+        –
         {% if item.end %}{{ item.end | date: "%b %Y" }}{% else %}Present{% endif %}
         {% if item.location %} · {{ item.location }}{% endif %}
       </p>
-    </header>
-  </article>
+
+      {% if forloop.last == false %}
+        <hr class="xp-sep">
+      {% endif %}
+    </article>
   {% endfor %}
 </div>
 
 <style>
-.experience { display: grid; gap: 1rem; }
-.card { padding: 1rem 1.25rem; border: 1px solid var(--border, #2a2a2a); border-radius: 10px; background: var(--card, #0f0f10); }
-.card h3 { margin: 0 0 .25rem 0; font-weight: 600; }
-.card .role { font-weight: 500; color: #9aa0a6; }
-.card .meta { margin: 0; color: #9aa0a6; font-size: .95rem; }
+/* keep styles minimal so it matches the Research page theme */
+.page-title { margin-bottom: 1.25rem; }
+
+.xp-list { display: block; }
+
+.xp-item { margin: 0 0 1.25rem 0; }
+
+.xp-heading {
+  margin: 0 0 .25rem 0;
+  font-weight: 700;               /* like Research titles */
+  line-height: 1.25;
+}
+
+.xp-heading a { text-decoration: underline; } /* same visual cue as Research links */
+
+.xp-dash { margin: 0 .35rem; color: #9aa0a6; }
+
+.xp-role { font-weight: 600; color: #7f8a94; }
+
+.xp-meta {
+  margin: 0 0 .75rem 0;
+  color: #8d949b;                 /* subtle, like your Research metadata */
+  font-size: .95rem;
+}
+
+.xp-sep {
+  border: 0;
+  border-top: 1px solid rgba(140,140,140,.25);  /* thin divider like Research */
+  margin: 1rem 0 0 0;
+}
 </style>
