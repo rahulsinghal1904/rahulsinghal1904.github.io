@@ -1,20 +1,20 @@
 - company: "Quantiphi"
   title: "Machine Learning Engineer"
-  location: "Marlborough, MA (Hybrid)"
+  location: "Massachusetts, USA"
   start: 2025-08-18
   end:
   url: "https://quantiphi.com"
 
 - company: "CAHOOT.AI"
   title: "Software Engineer Intern"
-  location: "Bridgeport, CT (Hybrid)"
+  location: "Connecticut, USA"
   start: 2025-06-20
   end: 2025-09-11
   url: "https://www.cahoot.ai"
 
 - company: "NYU Langone Health"
   title: "Research (AI/ML)"
-  location: "New York, NY"
+  location: "New York, USA"
   start: 2024-01-01
   end: 2024-06-30
   url: "https://nyulangone.org"
@@ -35,14 +35,14 @@
 
 - company: "MITACS Globalink Research (Toronto Metropolitan University)"
   title: "Machine Learning Research Intern"
-  location: "Toronto, ON"
+  location: "Toronto, Canada"
   start: 2021-05-01
   end: 2021-09-30
   url: "https://www.mitacs.ca/en"
 
 - company: "Takshila Learning"
   title: "Software Engineer Intern"
-  location: "India"
+  location: "Delhi, India"
   start: 2019-05-01
   end: 2019-08-31
   url: "https://www.linkedin.com/company/takshilalearn/"
