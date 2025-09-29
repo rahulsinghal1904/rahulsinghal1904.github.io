@@ -1,68 +1,42 @@
 ---
-layout: page
-title: Experience
+layout: single
+title: "Experience"
 permalink: /experience/
+author_profile: true   # enables the left About sidebar using _includes/author-profile.html
 ---
-
-<h1 class="page-title">Experience</h1>
 
 <div class="xp-list">
   {% assign items = site.data.experience | sort: 'start' | reverse %}
   {% for item in items %}
-    <article class="xp-item">
-      <h2 class="xp-heading">
-        {% if item.url %}
-          <a href="{{ item.url }}" target="_blank" rel="noopener">{{ item.company }}</a>
-        {% else %}
-          {{ item.company }}
-        {% endif %}
-        <span class="xp-dash">—</span>
-        <span class="xp-role">{{ item.title }}</span>
-      </h2>
-
-      <p class="xp-meta">
-        {{ item.start | date: "%b %Y" }}
-        –
-        {% if item.end %}{{ item.end | date: "%b %Y" }}{% else %}Present{% endif %}
-        {% if item.location %} · {{ item.location }}{% endif %}
-      </p>
-
-      {% if forloop.last == false %}
-        <hr class="xp-sep">
+  <article class="xp-item">
+    <h2 class="xp-heading">
+      {% if item.url %}
+        <a href="{{ item.url }}" target="_blank" rel="noopener">{{ item.company }}</a>
+      {% else %}
+        {{ item.company }}
       {% endif %}
-    </article>
+      <span class="xp-dash">—</span>
+      <span class="xp-role">{{ item.title }}</span>
+    </h2>
+
+    <p class="xp-meta">
+      {{ item.start | date: "%b %Y" }} –
+      {% if item.end %}{{ item.end | date: "%b %Y" }}{% else %}Present{% endif %}
+      {% if item.location %} · {{ item.location }}{% endif %}
+    </p>
+
+    {% unless forloop.last %}<hr class="xp-sep">{% endunless %}
+  </article>
   {% endfor %}
 </div>
 
 <style>
-/* keep styles minimal so it matches the Research page theme */
-.page-title { margin-bottom: 1.25rem; }
-
-.xp-list { display: block; }
-
-.xp-item { margin: 0 0 1.25rem 0; }
-
-.xp-heading {
-  margin: 0 0 .25rem 0;
-  font-weight: 700;               /* like Research titles */
-  line-height: 1.25;
-}
-
-.xp-heading a { text-decoration: underline; } /* same visual cue as Research links */
-
+/* Match the Research page design */
+.xp-item { margin: 0 0 1.15rem 0; }
+.xp-heading { margin: 0 0 .25rem 0; font-weight: 700; line-height: 1.25; }
+.xp-heading a { text-decoration: underline; }
 .xp-dash { margin: 0 .35rem; color: #9aa0a6; }
-
 .xp-role { font-weight: 600; color: #7f8a94; }
-
-.xp-meta {
-  margin: 0 0 .75rem 0;
-  color: #8d949b;                 /* subtle, like your Research metadata */
-  font-size: .95rem;
-}
-
-.xp-sep {
-  border: 0;
-  border-top: 1px solid rgba(140,140,140,.25);  /* thin divider like Research */
-  margin: 1rem 0 0 0;
-}
+.xp-meta { margin: 0 0 .75rem 0; color: #8d949b; font-size: .95rem; }
+.xp-sep { border: 0; border-top: 1px solid rgba(140,140,140,.25); margin: 1rem 0 0 0; }
 </style>
