@@ -1,0 +1,68 @@
+# Most-recent first (the page will sort automatically by start date)
+- company: Quantiphi
+  title: Machine Learning Engineer
+  location: Marlborough, MA (Hybrid)
+  start: 2025-09-01     # update if different
+  end:
+  url: https://quantiphi.com
+  highlights:
+    - NVIDIA practice; agentic workflows and LLM apps for enterprise customers
+    - Built/prioritized eval frameworks and roadmaps; collaborated with SA/PM teams
+
+- company: CAHOOT.AI
+  title: Software Engineer Intern
+  location: Bridgeport, CT (Hybrid)
+  start: 2025-06-01
+  end: 2025-09-01
+  url: https://www.cahoot.ai
+  highlights:
+    - Integrated TikTok Orders & USPS Tracking 3.0; Walmart inventory/price sync
+    - C#, ASP.NET MVC, JS, MS SQL; improved site performance and release reliability
+
+- company: AXA XL
+  title: Machine Learning Engineer
+  location: India / Remote
+  start: 2022-02-01
+  end: 2023-07-01
+  url: https://axaxl.com
+  highlights:
+    - Automated 15+ financial modeling pipelines (Python, SQL, Airflow, JAX)
+    - Deployed SageMaker/Lambda; 98%+ uptime with Prometheus/Grafana monitoring
+    - Built LLM/RAG tools for underwriters; +50% reporting throughput
+
+- company: IIT Madras — AMTDC
+  title: Data Science Intern (Predictive Maintenance)
+  location: Chennai, India
+  start: 2020-06-01   # adjust
+  end: 2020-12-01     # adjust
+  url: https://www.iitm.ac.in/research/institute-research-centres/advanced-manufacturing-technology-development-centre
+  highlights:
+    - Real-time sensor ingestion; LSTM/GRU/CNN models for equipment health
+    - Docker/K8s on Azure; live dashboards and alerting
+
+- company: MITACS Globalink Research (Toronto Metropolitan University)
+  title: Machine Learning Research Intern
+  location: Toronto, ON
+  start: 2021-05-01   # adjust
+  end: 2021-09-01     # adjust
+  url: https://www.mitacs.ca/en
+  highlights:
+    - Research on ML models; authored/assisted publications and experiments
+
+- company: NYU Langone Health
+  title: Research/Engineering (AI/ML)   # update exact title
+  location: New York, NY
+  start: 2024-01-01   # set actual
+  end: 2024-06-01     # or leave blank if ongoing
+  url: https://nyulangone.org
+  highlights:
+    - Applied ML to healthcare workflows; reproducible pipelines and evaluations
+
+- company: Takshila Learning
+  title: Software Engineer Intern
+  location: India
+  start: 2019-05-01   # adjust
+  end: 2019-08-01     # adjust
+  url: https://www.linkedin.com/company/takshilalearn/
+  highlights:
+    - Built LMS microservices; API integrations and production support
