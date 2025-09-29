@@ -4,85 +4,35 @@ title: Experience
 permalink: /experience/
 ---
 
-<div class="xp-wrap">
+<div class="experience">
   {% assign items = site.data.experience | sort: 'start' | reverse %}
   {% for item in items %}
-  <article class="xp-card">
-    <header class="xp-head">
-      <h3 class="xp-title">
+  <article class="card">
+    <header>
+      <h3>
         {% if item.url %}
-          <a class="xp-link" href="{{ item.url }}" target="_blank" rel="noopener">
-            {{ item.company }} <span class="xp-ext" aria-hidden="true">↗</span>
+          <a href="{{ item.url }}" target="_blank" rel="noopener">
+            {{ item.company }}
           </a>
         {% else %}
           {{ item.company }}
         {% endif %}
-        <span class="xp-role"> — {{ item.title }}</span>
+        <span class="role">— {{ item.title }}</span>
       </h3>
-      <p class="xp-meta">
-        <span class="xp-badge">
-          {{ item.start | date: "%b %Y" }} – {% if item.end %}{{ item.end | date: "%b %Y" }}{% else %}Present{% endif %}
-        </span>
-        {% if item.location %}
-          <span class="xp-dot">•</span>
-          <span class="xp-loc">{{ item.location }}</span>
-        {% endif %}
+      <p class="meta">
+        {{ item.start | date: "%b %Y" }} –
+        {% if item.end %}{{ item.end | date: "%b %Y" }}{% else %}Present{% endif %}
+        {% if item.location %} · {{ item.location }}{% endif %}
       </p>
-
-      {% if item.tags %}
-      <ul class="xp-tags" aria-label="Technologies">
-        {% for t in item.tags %}<li>{{ t }}</li>{% endfor %}
-      </ul>
-      {% endif %}
     </header>
-
-    {% if item.highlights %}
-    <ul class="xp-bullets">
-      {% for h in item.highlights %}
-      <li>{{ h }}</li>
-      {% endfor %}
-    </ul>
-    {% endif %}
   </article>
   {% endfor %}
 </div>
 
 <style>
-/* Layout */
-.xp-wrap{display:grid;gap:1.1rem}
-.xp-card{
-  padding:1rem 1.25rem 1rem 1.25rem;
-  border:1px solid var(--mm-border,#2b2b2b);
-  border-radius:14px;
-  background:var(--mm-card,#0f0f10);
-  box-shadow:0 1px 0 rgba(255,255,255,.04) inset, 0 8px 18px rgba(0,0,0,.25);
-  transition:transform .06s ease, border-color .12s ease, box-shadow .12s ease
-}
-.xp-card:hover{transform:translateY(-1px);border-color:#3a3a3a;box-shadow:0 10px 22px rgba(0,0,0,.3)}
-/* Head */
-.xp-head{display:flex;flex-direction:column;gap:.35rem}
-.xp-title{margin:0;font-weight:700;letter-spacing:.1px}
-.xp-role{font-weight:600;color:#9aa0a6}
-.xp-meta{margin:0;color:#a2a7ad;font-size:.95rem;display:flex;align-items:center;gap:.35rem}
-.xp-link{text-decoration:none;border-bottom:1px solid transparent}
-.xp-link:hover{border-color:currentColor}
-.xp-ext{font-size:.9em;opacity:.8;margin-left:.25rem}
-/* Badges/Tags */
-.xp-badge{
-  display:inline-block;padding:.15rem .5rem;border:1px solid #2f2f2f;border-radius:999px;
-  font-size:.85rem;background:rgba(255,255,255,.02)
-}
-.xp-dot{opacity:.5}
-.xp-loc{white-space:nowrap}
-.xp-tags{display:flex;flex-wrap:wrap;gap:.35rem;margin:.1rem 0 0 0;padding:0;list-style:none}
-.xp-tags li{
-  font-size:.80rem;border:1px solid #2d2d2d;border-radius:999px;padding:.12rem .5rem;
-  background:rgba(255,255,255,.03)
-}
-/* Bullets */
-.xp-bullets{margin:.6rem 0 0 1.15rem}
-.xp-bullets li{margin:.25rem 0}
-@media (min-width: 900px){
-  .xp-card{padding:1.1rem 1.35rem}
-}
+.experience { display: grid; gap: 1rem; }
+.card { padding: 1rem 1.25rem; border: 1px solid var(--border, #2a2a2a); border-radius: 10px; background: var(--card, #0f0f10); }
+.card h3 { margin: 0 0 .25rem 0; font-weight: 600; }
+.card .role { font-weight: 500; color: #9aa0a6; }
+.card .meta { margin: 0; color: #9aa0a6; font-size: .95rem; }
 </style>
