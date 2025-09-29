@@ -1,49 +1,48 @@
-# Most-recent first (the page will sort automatically by start date)
-- company: Quantiphi
-  title: Machine Learning Engineer
-  location: Marlborough, MA (Hybrid)
-  start: 2025-08-18     # update if different
+- company: "Quantiphi"
+  title: "Machine Learning Engineer"
+  location: "Marlborough, MA (Hybrid)"
+  start: 2025-08-18
   end:
-  url: https://quantiphi.com
+  url: "https://quantiphi.com"
 
-- company: CAHOOT.AI
-  title: Software Engineer Intern
-  location: Bridgeport, CT (Hybrid)
-  start: 2025-06-01
-  end: 2025-09-01
-  url: https://www.cahoot.ai
+- company: "CAHOOT.AI"
+  title: "Software Engineer Intern"
+  location: "Bridgeport, CT (Hybrid)"
+  start: 2025-06-20
+  end: 2025-09-11
+  url: "https://www.cahoot.ai"
 
-- company: AXA XL
-  title: Machine Learning Engineer
-  location: India / Remote
-  start: 2022-02-01
-  end: 2023-07-01
-  url: https://axaxl.com
+- company: "NYU Langone Health"
+  title: "Research/Engineering (AI/ML)"
+  location: "New York, NY"
+  start: 2024-01-01
+  end: 2024-06-30
+  url: "https://nyulangone.org"
 
-- company: IIT Madras — AMTDC
-  title: Software Engineer: AI/ML
-  location: Chennai, India
-  start: 2020-06-01   # adjust
-  end: 2020-12-01     # adjust
-  url: https://www.iitm.ac.in/research/institute-research-centres/advanced-manufacturing-technology-development-centre
+- company: "AXA XL"
+  title: "Machine Learning Engineer"
+  location: "India / Remote"
+  start: 2022-02-08
+  end: 2023-07-28
+  url: "https://axaxl.com"
 
-- company: MITACS Globalink Research (Toronto Metropolitan University)
-  title: Machine Learning Research Intern
-  location: Toronto, ON
-  start: 2021-05-01   # adjust
-  end: 2021-09-01     # adjust
-  url: https://www.mitacs.ca/en
+- company: "IIT Madras — AMTDC"
+  title: "Data Science Intern (Predictive Maintenance)"
+  location: "Chennai, India"
+  start: 2020-06-01
+  end: 2020-12-30
+  url: "https://www.iitm.ac.in/research/institute-research-centres/advanced-manufacturing-technology-development-centre"
 
-- company: NYU Langone Health
-  title: Research (AI/ML)   # update exact title
-  location: New York, NY
-  start: 2024-01-01   # set actual
-  end: 2024-06-01     # or leave blank if ongoing
-  url: https://nyulangone.org
+- company: "MITACS Globalink Research (Toronto Metropolitan University)"
+  title: "Machine Learning Research Intern"
+  location: "Toronto, ON"
+  start: 2021-05-01
+  end: 2021-09-30
+  url: "https://www.mitacs.ca/en"
 
-- company: Takshila Learning
-  title: Software Engineer Intern
-  location: India
-  start: 2019-05-01   # adjust
-  end: 2019-08-01     # adjust
-  url: https://www.linkedin.com/company/takshilalearn/
+- company: "Takshila Learning"
+  title: "Software Engineer Intern"
+  location: "India"
+  start: 2019-05-01
+  end: 2019-08-31
+  url: "https://www.linkedin.com/company/takshilalearn/"
